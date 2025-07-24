@@ -2,7 +2,7 @@
 
 [![SUMO](https://img.shields.io/badge/SUMO-1.19.0-blue.svg)](https://sumo.dlr.de/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Developer](https://img.shields.io/badge/Developer-Amit_Bhardwaj-blue.svg)](LICENSE)
+[![Developer](https://img.shields.io/badge/Developer-Amit_Bhardwaj-blue.svg)](https://github.com/Apeiro7)
 
 A SUMO (Simulation of Urban Mobility) simulation demonstrating lane-changing behavior when vehicles encounter a static obstacle.
 
