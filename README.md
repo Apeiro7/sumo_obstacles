@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 A SUMO (Simulation of Urban Mobility) simulation demonstrating lane-changing behavior when vehicles encounter a static obstacle.
+## QL Graph
+![Scenario](scenario/screenshot.png)
 
 ## 📋 Table of Contents
 
