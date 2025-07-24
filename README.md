@@ -5,7 +5,7 @@
 
 A SUMO (Simulation of Urban Mobility) simulation demonstrating lane-changing behavior when vehicles encounter a static obstacle.
 ## Scenario
-![Scenario](scenario/screenshot.png)
+<img src="scenario/screenshot.png" alt="Description" width="300" height="200"/>
 
 ## 📋 Table of Contents
 
