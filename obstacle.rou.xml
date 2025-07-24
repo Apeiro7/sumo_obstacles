@@ -1,0 +1,20 @@
+<routes>
+    <!-- Vehicle types -->
+    <vType id="car" accel="2.0" decel="4.5" sigma="0.5" length="5" maxSpeed="13.9"
+           guiShape="passenger"
+           lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="1.0" lcKeepRight="0.0"/>
+
+    <vType id="static" accel="0.1" decel="0.1" length="5" maxSpeed="0.1" guiShape="passenger"/>
+
+    <!-- Route over the edge -->
+    <route id="route0" edges="edge0"/>
+
+    <!-- Obstacle (blocks lane 0 at 100m) -->
+    <vehicle id="obstacle" type="static" route="route0" depart="0">
+        <stop lane="edge0_0" startPos="100" duration="100000"/>
+    </vehicle>
+
+    <!-- Moving vehicle that should change lane -->
+    <vehicle id="car1" type="car" route="route0" depart="200"/>
+    <vehicle id="car2" type="car" route="route0" depart="250"/>
+</routes>

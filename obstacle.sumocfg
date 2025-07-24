@@ -1,0 +1,16 @@
+<configuration>
+    <input>
+        <net-file value="obstacle.net.xml"/>
+        <route-files value="obstacle.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="5000"/>
+    </time>
+    <report>
+        <no-warnings value="false"/>
+    </report>
+    <processing>
+        <time-to-teleport value="-1"/> <!-- 🔥 disables teleportation -->
+    </processing>
+</configuration>
